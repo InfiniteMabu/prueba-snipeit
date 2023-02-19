@@ -181,7 +181,7 @@ De tal suerte que si lo editamos correctamente, vamos a poder ver lo siguiente e
 
 Y al usar nuevamente el comando `docker ps`apreciaremos que está en línea el contenedor Snipe-it:
 
-[docker_ps_2](imagenes/docker_ps_2.png)
+![docker_ps_2](imagenes/docker_ps_2.png)
 
 [Regresar al índice](#inicio)
 
