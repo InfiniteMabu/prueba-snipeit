@@ -2,9 +2,9 @@
 En este manual se cubrirá la información básica para la implementación con Docker y uso de Snipe-it.
 
 ## Índice
-- [¿Qué es Snipe-it y qué ofrece?](#¿qué_es_snipe-it?_y_qué_ofrece?)
+- [¿Qué es Snipe-it y qué ofrece?](#)
 - [Implementación con Docker al servidor de pruebas Sofía](#implementación_con_docker_al_servidor_de_pruebas_sofía)
-- [Descarga de Snipe-it](#descarga_de_snipe-it]
+- [Descarga de Snipe-it](#descarga_de_snipe-it)
 - [Configuración de las variables de entorno](#configuración_de_las_variables_de_entorno)
 - [Parámetros de MySQL](#parámetros_de_mysql)
 - [Opciones de Snipe-it](#opciones_de_snipe-it)
@@ -12,7 +12,7 @@ En este manual se cubrirá la información básica para la implementación con D
 - [Inicio del contenedor Snipe-it](#inicio_del_contenedor_snipeit)
 - [Resultado final](#resultado_final)
 
-## ¿Qué es Snipe-it y qué ofrece?
+## ¿Qué es Snipe-it y qué ofrece?<a name="definicion"></a>
 ![snipeit_logo.png](imagenes/snipeit_logo.png)
 <p style="text-align": justify;">Snipe-it, en pocas palabras, es un administrador de recursos (licencias, equipos, consumibles, componentes y accesorios) de licencia abierta en formato de aplicación web. La manera de permitir agregar, quitar, editar y ver los recursos hace de Snipe-it una de las aplicaciones de manejo de recursos más usadas por empresas y escuelas.</p> 
 
