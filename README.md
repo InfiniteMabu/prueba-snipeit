@@ -10,7 +10,7 @@ En este manual se cubrirá la información básica para la implementación con D
   - [Opciones de Snipe-it](#opciones)
   - [Creación e inicio del contenedor con MYSQL 5.6](#mysql)
 - [Inicio del contenedor Snipe-it](#snipeit)
-- [Resultado final](#resultado_final)
+- [Resultado final](#resultado)
 
 ## ¿Qué es Snipe-it y qué ofrece?<a name="definicion"></a>
 ![snipeit_logo.png](imagenes/snipeit_logo.png)
@@ -185,7 +185,7 @@ Y al usar nuevamente el comando `docker ps`apreciaremos que está en línea el c
 
 [Regresar al índice](#inicio)
 
-## Resultado final
+## Resultado final<a name="resultado"></a>
 Si hicimos todo bien, al ingresar a la dirección que pusimos en nuestro archivo `.env` desde nuestro navegador preferido, podremos ver el pre-flight de Snipe-it, es decir, la configuración inicial de la app en si de manera mucho más intuitiva.
 
 ![snipeit_web](imagenes/snipeit_web.png)
