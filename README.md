@@ -2,7 +2,7 @@
 En este manual se cubrirá la información básica para la implementación con Docker y uso de Snipe-it.
 
 ## Índice
-- [¿Qué es Snipe-it y qué ofrece?](#)
+- [¿Qué es Snipe-it y qué ofrece?](#definicion)
 - [Implementación con Docker al servidor de pruebas Sofía](#implementación_con_docker_al_servidor_de_pruebas_sofía)
 - [Descarga de Snipe-it](#descarga_de_snipe-it)
 - [Configuración de las variables de entorno](#configuración_de_las_variables_de_entorno)
