@@ -10,7 +10,7 @@ En este manual se cubrirá la información básica para la implementación con D
   - [Opciones de Snipe-it](#opciones)
   - [Creación e inicio del contenedor con MYSQL 5.6](#mysql)
 - [Inicio del contenedor Snipe-it](#snipeit)
-- [Resultado final](#resultado)
+- [Página de set-up](#pagina_inicio)
 
 ## ¿Qué es Snipe-it y qué ofrece?<a name="definicion"></a>
 ![snipeit_logo.png](imagenes/snipeit_logo.png)
@@ -185,7 +185,7 @@ Y al usar nuevamente el comando `docker ps`apreciaremos que está en línea el c
 
 [Regresar al índice](#inicio)
 
-## Resultado final<a name="resultado"></a>
+## Página de set-up<a name="pagina_inicio"></a>
 Si hicimos todo bien, al ingresar a la dirección que pusimos en nuestro archivo `.env` desde nuestro navegador preferido, podremos ver el pre-flight de Snipe-it, es decir, la configuración inicial de la app en si de manera mucho más intuitiva.
 
 ![snipeit_web](imagenes/snipeit_web.png)
@@ -207,7 +207,24 @@ Al terminar con la configuración, puede aparecer `500 web server error`, no pas
 
 ![snipeit_home](imagenes/snipeit_home.png)
 
-¡Y listoo! Ya podremos usar Snipe-it junto con todas las maravillas de gestión que nos ofrece.
+## Agregar modelos de equipos, consumibles o componentes
+1. Sobre la barra de opciones de la página inicio hacer click sobre la barra y seleccionar el engrane de opciones.
+2. Dar click en "Modelos".
+3. Seleccionar "Crear localización".
+4. Aparecerá la siguiente página con información a llenar:
+![config_modelos](/imagenes/modelos_config.png)
+Aquí podremos agregar el fabricante, la categoría en la que está (puede ser laptop, PC, impresora, etc. el límite es tu imaginación), el número de modelo e incluso la depreciación del equipo si es que se le va a tomar en cuenta (la amortización se explicará más tarde).
+5. Podremos agregar una imagen para identificar al equipo rápidamente.
+6. Finalmente daremos click en guardar.
+
+## Agregar equipos<a name="equipos"></a>
+Para agregar equipos se tiene que hacer lo siguiente:
+1. En la página de inicio dar click derecho sobre las barra laterar para desplegar las opciones
+2. Elegir "Equipos" seguido de "Listar todo"
+
+
+
+
 
 [Regresar al índice](#inicio)
 
