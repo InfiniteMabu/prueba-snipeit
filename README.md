@@ -216,6 +216,9 @@ Al terminar con la configuración, puede aparecer `500 web server error`, no pas
 Aquí podremos agregar el fabricante, la categoría en la que está (puede ser laptop, PC, impresora, etc. el límite es tu imaginación), el número de modelo e incluso la depreciación del equipo si es que se le va a tomar en cuenta (la amortización se explicará más tarde).
 5. Podremos agregar una imagen para identificar al equipo rápidamente.
 6. Finalmente daremos click en guardar.
+7. El modelo aparecerá en la pantalla junto con otra información.
+
+>Se deben de agregar los modelos primero para tener una base de todo lo que se tiene en el lugar de trabajo, para que a la hora de agregar equipos se puedan seleccionar fácilmente, agregar el número de unidades que se tienen, sus números de serie, etc.
 
 ## Agregar equipos<a name="equipos"></a>
 Para agregar equipos se tiene que hacer lo siguiente:
