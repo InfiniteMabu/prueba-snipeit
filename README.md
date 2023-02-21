@@ -306,4 +306,6 @@ Para acceder a ellos bastará con ir a la siempre confiable barra lateral izquie
 Como siempre al dar click sobre cualquier opción disponible desplegará una ventana pero esta vez con información de dicha categoría. Por ejemplo, con la opción de mantenimiento podremos ver información de cuándo fué el último servicio, fecha de del siguiente,etc. y toda esta información la podremos exportar en el formato de archivo que mejor nos convenga.
 ![informe_ejemplo](imagenes/informe_ejemplo.png)
 
+¡Y listo! esta es toda la información básica que se necesita saber sobre Snipe-it para crear registros de activos, lo que nos va a permitir tener un mejor control sobre todo lo que tenemos en nuestra empresa o centro de trabajo, como lo es un centro de base de datos de la facultad de Ingeniería donde hay equipos, componentes, accesorios y licencias por doquier.
+
 [Regresar al índice](#inicio)
