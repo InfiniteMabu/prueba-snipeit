@@ -299,7 +299,7 @@ Para acceder a ellos, debemos de dar click sobre la misma barra de siempre de nu
 
 Un ejemplo de esto es la siguiente imagen del formulario que se abre al seleccionar la opción de mantenimiento de equipos:
 
-![mantenimiento_snipeit](imagenes/mantenimiento_snipeit.png)
+![mantenimiento_snipeit](imagenes/mantenimiento_equipos.png)
 
 [Regresar al índice](#inicio)
 
