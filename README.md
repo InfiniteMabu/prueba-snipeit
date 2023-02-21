@@ -207,26 +207,35 @@ Al terminar con la configuración, puede aparecer `500 web server error`, no pas
 
 ![snipeit_home](imagenes/snipeit_home.png)
 
-## Agregar modelos de equipos, consumibles o componentes
+[Regresar al índice](#inicio)
+
+## Pasos básicos para agregar modelos de equipos, consumibles o componentes
+La simplicidad y versatilidad de Snipe-it como una base de datos con interfaz gráfica permite que sea muy fácil identificar los pasos para agregar activos, de hecho, la información que se pida para rellenar va a variar dependiendo del activo que se esté agregando.
 1. Sobre la barra de opciones de la página inicio hacer click sobre la barra y seleccionar el engrane de opciones.
 2. Dar click en "Modelos".
 3. Seleccionar "Crear localización".
 4. Aparecerá la siguiente página con información a llenar:
-![config_modelos](/imagenes/modelos_config.png)
+![config_modelos](imagenes/modelos_config.png)
 Aquí podremos agregar el fabricante, la categoría en la que está (puede ser laptop, PC, impresora, etc. el límite es tu imaginación), el número de modelo e incluso la depreciación del equipo si es que se le va a tomar en cuenta (la amortización se explicará más tarde).
 5. Podremos agregar una imagen para identificar al equipo rápidamente.
 6. Finalmente daremos click en guardar.
 7. El modelo aparecerá en la pantalla junto con otra información.
 
+Así como se agregaron modelos, se pueden agregar departamentos, localizaciones, fabricantes, proveedores, etc., todo lo que esté dentro del apartado de opciones.
+
 >Se deben de agregar los modelos primero para tener una base de todo lo que se tiene en el lugar de trabajo, para que a la hora de agregar equipos se puedan seleccionar fácilmente, agregar el número de unidades que se tienen, sus números de serie, etc.
 
-## Agregar equipos<a name="equipos"></a>
+[Regresar al índice](#inicio)
+
+## Pasos básicos para agregar equipos,licencias, consumibles,<a name="equipos"></a>
+Al igual que los pasos básicos 
 Para agregar equipos se tiene que hacer lo siguiente:
 1. En la página de inicio dar click derecho sobre las barra laterar para desplegar las opciones
-2. Elegir "Equipos" seguido de "Listar todo"
-
-
-
+2. Elegir "Equipos" seguido de "Listar todo".
+3. Dar click en "Crear localización" y se desplegará un formulario donde agregaremos lo que pida.
+![snipeit_equipos](imagenes/snipeit_equipos.png)
+4. Podremos notar que podemos seleccionar modelos que previamente creamos, darle un nombre al equipo para ser fácilmente identificado, así cómo una etiqueta de identificación y el estado en el que se encuentra (no estado de México, sino que si está en el almacén, pendiente de preparar o listo para usar). También podremos agregar información adicional del equipo en cuestión, cómo la fecha en el que se compró, el costo que tuvo, el número de pedido y el proveedor de dicho activo, información que seguro nos vendrá bien en un futuro.
+5. Daremos click en agregar y ¡listo!.
 
 
 [Regresar al índice](#inicio)
