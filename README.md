@@ -267,6 +267,7 @@ Al seleccionar cualquiera de las opciones posibles, automáticamente se descarga
 ## Importar bases de datos<a name="importar"></a>
 Snipe-it permite importar bases de datos únicamente en formato CSV. Para importar vamos a la barra de la parte izquierda de nuestra interfaz y seleccionaremos la opción "Importar".
 ![importar_snipeit](imagenes/importar_snipeit.png)
+
 Al seleccionar dicha opción se desplegará una pantalla donde tendremos que subir el archivo `.csv`. Una vez subido a Snipe-it, podremos elegir más opciones de cómo queremos que se clasifiquen los datos que contiene nuestro `.csv` con tan solo dar click en el recuadro azul, una pantalla similar a esta se debería de desplegar.
 ![clasificar_snipeit](imagenes/clasificar_snipeit.png)
 Cuándo terminar de clasificar nuestros datos, podremos ir al apartado del tipo de activos que subimos a Snipe-it para comprobar que efectivamente se importaron.
