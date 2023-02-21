@@ -11,6 +11,11 @@ En este manual se cubrirá la información básica para la implementación con D
   - [Creación e inicio del contenedor con MYSQL 5.6](#mysql)
 - [Inicio del contenedor Snipe-it](#snipeit)
 - [Página de set-up](#pagina_inicio)
+- [Pasos básicos para agregar modelos de equipos, categorías, fabricantes, proveedores, departamentos, localizaciones, etc.](#modelos)
+- [Pasos básicos para agregar equipos, licencias, consumibles, etc.](#equipos)
+- [Exportar bases de datos](#exportar)
+- [Importar bases de datos](#importar)
+- 
 
 ## ¿Qué es Snipe-it y qué ofrece?<a name="definicion"></a>
 ![snipeit_logo.png](imagenes/snipeit_logo.png)
@@ -209,7 +214,7 @@ Al terminar con la configuración, puede aparecer `500 web server error`, no pas
 
 [Regresar al índice](#inicio)
 
-## Pasos básicos para agregar modelos de equipos, consumibles o componentes
+## Pasos básicos para agregar modelos de equipos, categorías, fabricantes, proveedores, departamentos, localizaciones, etc.<a name="modelos"></a>
 La simplicidad y versatilidad de Snipe-it como una base de datos con interfaz gráfica permite que sea muy fácil identificar los pasos para agregar activos, de hecho, la información que se pida para rellenar va a variar dependiendo del activo que se esté agregando.
 1. Sobre la barra de opciones de la página inicio hacer click sobre la barra y seleccionar el engrane de opciones.
 2. Dar click en "Modelos".
@@ -227,7 +232,7 @@ Así como se agregaron modelos, se pueden agregar departamentos, localizaciones,
 
 [Regresar al índice](#inicio)
 
-## Pasos básicos para agregar equipos,licencias, consumibles,<a name="equipos"></a>
+## Pasos básicos para agregar equipos, licencias, consumibles, etc.<a name="equipos"></a>
 Al igual que los pasos básicos 
 Para agregar equipos se tiene que hacer lo siguiente:
 1. En la página de inicio dar click derecho sobre las barra laterar para desplegar las opciones
@@ -237,8 +242,51 @@ Para agregar equipos se tiene que hacer lo siguiente:
 4. Podremos notar que podemos seleccionar modelos que previamente creamos, darle un nombre al equipo para ser fácilmente identificado, así cómo una etiqueta de identificación y el estado en el que se encuentra (no estado de México, sino que si está en el almacén, pendiente de preparar o listo para usar). También podremos agregar información adicional del equipo en cuestión, cómo la fecha en el que se compró, el costo que tuvo, el número de pedido y el proveedor de dicho activo, información que seguro nos vendrá bien en un futuro.
 5. Daremos click en agregar y ¡listo!.
 
+Recordemos que estos pasos son similares con cada uno de los activos que snipe-it permite agregar.
 
 [Regresar al índice](#inicio)
+
+## Exportar bases de datos<a name="exportar"></a>
+Otra de las bondades que ofrece Snipe-it es la exportación de las bases de datos que nosostros creamos de cualquier activo en la extensión de archivo que mejor nos convenga. Para ello vamos a ir a cualquiera de las categorías de Snipe-it y observaremos que en la parte superior derecha hay un botón de descarga. 
+![desgarga_datos](imagenes/descarga_datos.png)
+El cuál a hacer click nos desplegará una lista de todas las extensiones en la que podemos descargar el archivo, las cuáles son:
+* MS-Excel (Open XML)
+* MS-Excel
+* CSV
+* PDF
+* JSON
+* SML
+* TXT
+* SQL
+* MS-Word
+Al seleccionar cualquiera de las opciones posibles, automáticamente se descargar un archivo que de nombre tiene la palabra "export" y la categoría de activo que estamos exportando, así como la fecha en la que se exportó dicho archivo. La información que tendrá dicho archivo es todo lo que tengamos de dicha categoría y está se mostrará en el formato en el que la hayamos descargado.
+
+[Regresar al índice](#inicio)
+
+## Importar bases de datos<a name="importar"></a>
+Snipe-it permite importar bases de datos únicamente en formato CSV. Para importar vamos a la barra de la parte izquierda de nuestra interfaz y seleccionaremos la opción "Importar".
+![importar_snipeit](imagenes/importar_snipeit.png)
+Al seleccionar dicha opción se desplegará una pantalla donde tendremos que subir el archivo `.csv`. Una vez subido a Snipe-it, podremos elegir más opciones de cómo queremos que se clasifiquen los datos que contiene nuestro `.csv` con tan solo dar click en el recuadro azul, una pantalla similar a esta se debería de desplegar.
+![clasificar_snipeit](imagenes/clasificar_snipeit.png)
+Cuándo terminar de clasificar nuestros datos, podremos ir al apartado del tipo de activos que subimos a Snipe-it para comprobar que efectivamente se importaron.
+![verificar_importacion](imagenes/verificar_importacion.png)
+
+>Es importante seguir el formato CSV que Snipe-it pide para la lectura correcta de datos por parte de la aplicación. Para más información de este formato vista: <a href="https://snipe-it.readme.io/docs/importing">Importando activos y más</a>.
+
+[Regresar al índice](#inicio)
+
+## Registro de mantenimiento de equipos y más<a name="mantenimiento"></a>
+Snipe-it permite tener un regsitro de lo siguiente:
+* Prestaciones de equipos a usuarios.
+* Mantenimiento a equipos.
+* Equipos solicitados por otros usarios.
+* Equipos borrados.
+* Historial de importaciones de datos.
+* Fechas de auditorás masivas.
+Para acceder a ellos, debemos de dar click sobre la misma barra de siempre de nuestro lado izquierdo y seleccionar la opción "Equipos", en la cuál se desplegará una gran cantidad de opciones, entre ellas las que mencionamos anteriormente, las cuáles estarán hasta abajo del listado. El dar click sobre cualquiera de otras opciones desplegará formularios similares a los antes vistos, por supuesto, con diferentes datos a pedir.
+
+[Regresar al índice](#inicio)
+
 
 
 
