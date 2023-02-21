@@ -221,7 +221,7 @@ La simplicidad y versatilidad de Snipe-it como una base de datos con interfaz gr
 2. Dar click en "Modelos".
 3. Seleccionar "Crear localización".
 4. Aparecerá la siguiente página con información a llenar:
-![config_modelos](imagenes/modelos_config.png)
+![config_modelos](imagenes/config_modelos.png)
 Aquí podremos agregar el fabricante, la categoría en la que está (puede ser laptop, PC, impresora, etc. el límite es tu imaginación), el número de modelo e incluso la depreciación del equipo si es que se le va a tomar en cuenta (la amortización se explicará más tarde).
 5. Podremos agregar una imagen para identificar al equipo rápidamente.
 6. Finalmente daremos click en guardar.
