@@ -15,7 +15,8 @@ En este manual se cubrirá la información básica para la implementación con D
 - [Pasos básicos para agregar equipos, licencias, consumibles, etc.](#equipos)
 - [Exportar bases de datos](#exportar)
 - [Importar bases de datos](#importar)
-- 
+- [Registro de mantenimiento de equipos y más](#registros)
+- [Obtención de informes](#informes)
 
 ## ¿Qué es Snipe-it y qué ofrece?<a name="definicion"></a>
 ![snipeit_logo.png](imagenes/snipeit_logo.png)
@@ -275,7 +276,7 @@ Cuándo terminar de clasificar nuestros datos, podremos ir al apartado del tipo 
 
 [Regresar al índice](#inicio)
 
-## Registro de mantenimiento de equipos y más<a name="mantenimiento"></a>
+## Registro de mantenimiento de equipos y más<a name="registros"></a>
 Snipe-it permite tener un regsitro de lo siguiente:
 * Prestaciones de equipos a usuarios.
 * Mantenimiento a equipos.
@@ -285,13 +286,24 @@ Snipe-it permite tener un regsitro de lo siguiente:
 * Fechas de auditorás masivas.
 Para acceder a ellos, debemos de dar click sobre la misma barra de siempre de nuestro lado izquierdo y seleccionar la opción "Equipos", en la cuál se desplegará una gran cantidad de opciones, entre ellas las que mencionamos anteriormente, las cuáles estarán hasta abajo del listado. El dar click sobre cualquiera de otras opciones desplegará formularios similares a los antes vistos, por supuesto, con diferentes datos a pedir.
 
+Un ejemplo de esto es la siguiente imagen del formulario que se abre al seleccionar la opción de mantenimiento de equipos:
+![mantenimiento_snipeit](imagenes/mantenimiento_snipeit.png)
+
 [Regresar al índice](#inicio)
 
+## Obtención de informes<a name="informes"></a>
+Snipe-it permite generar informes y reportes de lo siguiente:
+* Actividad de los usarios
+* Auditorías
+* Devaluaciones
+* Licencias
+* Mantenimientos realizados
+* No conformidades con equipos
+* Accesorios
 
+Para acceder a ellos bastará con ir a la siempre confiable barra lateral izquierda y navegar por la opciones hasta el fondo para encontrar la opción "Informes", el cuál al dar click desplegará las opciones anteriormente mencionadas:
+![informes_snipeit](imagenes/informes_snipeit.png)
+Como siempre al dar click sobre cualquier opción disponible desplegará una ventana pero esta vez con información de dicha categoría. Por ejemplo, con la opción de mantenimiento podremos ver información de cuándo fué el último servicio, fecha de del siguiente,etc. y toda esta información la podremos exportar en el formato de archivo que mejor nos convenga.
+![informe_ejemplo](imagenes/informe_ejemplo.png)
 
-
-
-
-
-
-
+[Regresar al índice](#inicio)
