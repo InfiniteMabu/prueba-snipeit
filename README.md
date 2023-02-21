@@ -221,7 +221,9 @@ La simplicidad y versatilidad de Snipe-it como una base de datos con interfaz gr
 2. Dar click en "Modelos".
 3. Seleccionar "Crear localización".
 4. Aparecerá la siguiente página con información a llenar:
+
 ![config_modelos](imagenes/config_modelos.png)
+
 Aquí podremos agregar el fabricante, la categoría en la que está (puede ser laptop, PC, impresora, etc. el límite es tu imaginación), el número de modelo e incluso la depreciación del equipo si es que se le va a tomar en cuenta (la amortización se explicará más tarde).
 5. Podremos agregar una imagen para identificar al equipo rápidamente.
 6. Finalmente daremos click en guardar.
@@ -239,7 +241,9 @@ Para agregar equipos se tiene que hacer lo siguiente:
 1. En la página de inicio dar click derecho sobre las barra laterar para desplegar las opciones
 2. Elegir "Equipos" seguido de "Listar todo".
 3. Dar click en "Crear localización" y se desplegará un formulario donde agregaremos lo que pida.
+
 ![snipeit_equipos](imagenes/snipeit_equipos.png)
+
 4. Podremos notar que podemos seleccionar modelos que previamente creamos, darle un nombre al equipo para ser fácilmente identificado, así cómo una etiqueta de identificación y el estado en el que se encuentra (no estado de México, sino que si está en el almacén, pendiente de preparar o listo para usar). También podremos agregar información adicional del equipo en cuestión, cómo la fecha en el que se compró, el costo que tuvo, el número de pedido y el proveedor de dicho activo, información que seguro nos vendrá bien en un futuro.
 5. Daremos click en agregar y ¡listo!.
 
@@ -249,7 +253,9 @@ Recordemos que estos pasos son similares con cada uno de los activos que snipe-i
 
 ## Exportar bases de datos<a name="exportar"></a>
 Otra de las bondades que ofrece Snipe-it es la exportación de las bases de datos que nosostros creamos de cualquier activo en la extensión de archivo que mejor nos convenga. Para ello vamos a ir a cualquiera de las categorías de Snipe-it y observaremos que en la parte superior derecha hay un botón de descarga. 
+
 ![desgarga_datos](imagenes/descarga_datos.png)
+
 El cuál a hacer click nos desplegará una lista de todas las extensiones en la que podemos descargar el archivo, las cuáles son:
 * MS-Excel (Open XML)
 * MS-Excel
@@ -266,11 +272,15 @@ Al seleccionar cualquiera de las opciones posibles, automáticamente se descarga
 
 ## Importar bases de datos<a name="importar"></a>
 Snipe-it permite importar bases de datos únicamente en formato CSV. Para importar vamos a la barra de la parte izquierda de nuestra interfaz y seleccionaremos la opción "Importar".
+
 ![importar_snipeit](imagenes/importar_snipeit.png)
 
 Al seleccionar dicha opción se desplegará una pantalla donde tendremos que subir el archivo `.csv`. Una vez subido a Snipe-it, podremos elegir más opciones de cómo queremos que se clasifiquen los datos que contiene nuestro `.csv` con tan solo dar click en el recuadro azul, una pantalla similar a esta se debería de desplegar.
+
 ![clasificar_snipeit](imagenes/clasificar_snipeit.png)
+
 Cuándo terminar de clasificar nuestros datos, podremos ir al apartado del tipo de activos que subimos a Snipe-it para comprobar que efectivamente se importaron.
+
 ![verificar_importacion](imagenes/verificar_importacion.png)
 
 >Es importante seguir el formato CSV que Snipe-it pide para la lectura correcta de datos por parte de la aplicación. Para más información de este formato vista: <a href="https://snipe-it.readme.io/docs/importing">Importando activos y más</a>.
@@ -288,6 +298,7 @@ Snipe-it permite tener un regsitro de lo siguiente:
 Para acceder a ellos, debemos de dar click sobre la misma barra de siempre de nuestro lado izquierdo y seleccionar la opción "Equipos", en la cuál se desplegará una gran cantidad de opciones, entre ellas las que mencionamos anteriormente, las cuáles estarán hasta abajo del listado. El dar click sobre cualquiera de otras opciones desplegará formularios similares a los antes vistos, por supuesto, con diferentes datos a pedir.
 
 Un ejemplo de esto es la siguiente imagen del formulario que se abre al seleccionar la opción de mantenimiento de equipos:
+
 ![mantenimiento_snipeit](imagenes/mantenimiento_snipeit.png)
 
 [Regresar al índice](#inicio)
@@ -303,8 +314,11 @@ Snipe-it permite generar informes y reportes de lo siguiente:
 * Accesorios
 
 Para acceder a ellos bastará con ir a la siempre confiable barra lateral izquierda y navegar por la opciones hasta el fondo para encontrar la opción "Informes", el cuál al dar click desplegará las opciones anteriormente mencionadas:
+
 ![informes_snipeit](imagenes/informes_snipeit.png)
+
 Como siempre al dar click sobre cualquier opción disponible desplegará una ventana pero esta vez con información de dicha categoría. Por ejemplo, con la opción de mantenimiento podremos ver información de cuándo fué el último servicio, fecha de del siguiente,etc. y toda esta información la podremos exportar en el formato de archivo que mejor nos convenga.
+
 ![informe_ejemplo](imagenes/informe_ejemplo.png)
 
 ¡Y listo! esta es toda la información básica que se necesita saber sobre Snipe-it para crear registros de activos, lo que nos va a permitir tener un mejor control sobre todo lo que tenemos en nuestra empresa o centro de trabajo, como lo es un centro de base de datos de la facultad de Ingeniería donde hay equipos, componentes, accesorios y licencias por doquier.
